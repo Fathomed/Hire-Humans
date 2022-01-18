@@ -15,7 +15,7 @@ function getJobs() {
   const url = `${xanoUrl.toString()}jobs`;
 
   // Remember the 'request' was defined above as the standard way to access an API in Javascript.
-  // GET is the verb we're using to GET data from Xano
+  // GET is the verb we're using to GET data from Xano test
   request.open("GET", url, true);
 
   // When the 'request' or API request loads, do the following...
